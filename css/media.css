@@ -218,7 +218,15 @@
     flex-direction: column;
     align-items: flex-start;
     margin-right: 24px;
+    
 }
+
+.container-foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+
 .footer-social-text {
     justify-content: left;
 }
