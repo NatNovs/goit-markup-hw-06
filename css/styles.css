@@ -190,7 +190,7 @@ letter-spacing: 0.02em;
 
 .mob-address-tel {
     color: var(--primary-brand-iris);
-font-size: 26px;
+font-size: 36px;
 font-weight: 700;
 line-height: 1.11; 
 letter-spacing: 0.02;
@@ -213,8 +213,10 @@ letter-spacing: 0.02em;
 
 .mob-social-list {
     display: flex;
+    max-width: 328px;
     justify-content: space-between;
 }
+
 .mob-list-icon {
     width: 40px;
     height: 40px;
@@ -239,12 +241,12 @@ letter-spacing: 0.02em;
 .mob-menu-nav .link:focus {
     color: var(--pressed-state-ocean);
 }
-.mob-address .link:hover {
+/* .mob-address .link:hover {
     color: var(--primary-brand-iris);
 }
 .mob-address .link:focus {
-    color: var(--primary-brand-iris));
-}
+    color: var(--primary-brand-iris);
+} */
 /*-------HERO-------*/
 
 
@@ -399,7 +401,7 @@ height: 112px;
 
 .team { 
     background-color: var(--cloud-color);
-    padding: 96px;
+    padding: 96px 0;
     /* padding: 120px 0; */
 }
 
@@ -518,10 +520,10 @@ height: 112px;
 }
 
 .customers-item {
-    /* width: calc(100% - 120px / 6); */
+    width: calc((100% - 16px) / 2);
     display: flex;
     height: 88px;
-    width: 190px;
+    /* width: 190px; */
 }
 
 .customers-link {
@@ -884,6 +886,7 @@ letter-spacing: 0.04em;
     left: 50%;
     transform: translate(-50%, -50%) scale(1);
     max-width: 408px;
+    width: 100%;
     min-height: 584px;
     background: var(--dairy-color);
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);

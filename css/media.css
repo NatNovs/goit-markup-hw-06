@@ -10,6 +10,16 @@
         margin-right: auto;
     }
 
+    @media (max-width: 402px) {
+    .mob-address-tel {
+    font-size: 26px;
+    }
+}
+.mob-studio{
+    color: var(--pressed-state-ocean);
+}
+
+
     /* .mob-social-list {
         display: flex;
         justify-content: center;
@@ -165,8 +175,8 @@
         font-size: 56px;
         line-height: 1.07; 
         max-width: 496px;
-        padding-bottom: 36px;
-        margin-bottom: 0;
+        padding-bottom: 0;
+        margin-bottom:36px;
     }
     .benefits {
         display: flex;
@@ -230,7 +240,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
-    min-width: 584px;
+    max-width: 584px;
     gap: 72px 24px;
 }
 
@@ -428,8 +438,9 @@ margin-right: 40px;
         margin-bottom: 16px;
     }
     .container-foot {
-        min-width: 1440px;
-        justify-content: center;
+        max-width: 1158px;
+        display: flex;
+        flex-wrap: nowrap;
     }
 
     .container-footer {
